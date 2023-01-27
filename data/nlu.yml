@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - こんにちは
+    - おはようございます
+    - こんばんは
+    - やっほー
+    - Yo
+    - こん
+    - ちゃ
+
+- intent: ask_reserve
+  examples: |
+    - 予約をする
+    - 予約をお願いします
+    - 予約をしたい
+    - 予約できますか？
